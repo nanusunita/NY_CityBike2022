@@ -21,5 +21,5 @@ The major objective of this study is to to understand how New York bike program 
 
 ## Datasets
 
-- NYC Data Bikesharing dataset 2022 data (from Kaggle)
--  NOAA Weather Data (from NOAA API)
+- NYC Data Bikesharing dataset 2022 data (from Kaggle) https://s3.amazonaws.com/tripdata/index.html 
+-  NOAA Weather Data (from NOAA API) https://www.ncdc.noaa.gov/cdo-web/datatools/findstation 
