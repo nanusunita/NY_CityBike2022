@@ -1,10 +1,10 @@
 # NY_CityBike2022
 
-Introduction
+## Introduction
 
 This is the analytics about Citi Bike Program in New York. It looks into 2022 data to understand what factors are affecting the Citi Bike Program. The dataset has been enriched by NOAA's weather data pulled through API service. 
 
-Objective
+## Objective
 
 The major objective of this study is to to understand how New York bike program can be made more profitable by expanding its usage. The major research questions are:
 
@@ -19,7 +19,7 @@ The major objective of this study is to to understand how New York bike program 
 5.	What is the distribution of different stations – The assumption is that the stations are not evenly distributed
 
 
-Datasets
+## Datasets
 
-- NYC Data Bikesharing dataset 2022 data (from Kaggle)
--  NOAA Weather Data (from NOAA API)
+- NYC Data Bikesharing dataset 2022 data (from Kaggle) https://s3.amazonaws.com/tripdata/index.html 
+-  NOAA Weather Data (from NOAA API) https://www.ncdc.noaa.gov/cdo-web/datatools/findstation 
