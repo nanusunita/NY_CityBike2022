@@ -6,5 +6,4 @@ numerize == 0.12
 pillow == 9.4.0
 pandas
 datetime
-PIL
 seaborn
