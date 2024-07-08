@@ -74,7 +74,11 @@ elif page =='Most popular stations':
     width = 900, height = 600
     )
     st.plotly_chart(fig, use_container_width=True)
-    st.markdown('The bar chart shows that some stations are more popular than others making them stations with higher demand than others. W 21 St &6 Ave is the most popular station with 131K rides in 2022. Based on the quick research, this station is in the middle of Manhattan nearby popular tourist destination and also closed to train station. Both tourist and locals probably are using this station making it most popular. West St & Chambers St along with Broadway & W 58 St are the other two top stations.')
+    
+    myImage1 = Image.open('Top 20 Stations.PNG') 
+    st.image(myImage1)
+    
+    st.markdown('The bar chart shows that some stations are more popular than others making them stations with higher demand than others. W 21 St &6 Ave is the most popular station with 131K rides in 2022. Based on the quick research, this station is in the middle of Manhattan nearby popular tourist destination and also closed to train station. Both tourist and locals probably are using this station making it most popular. West St & Chambers St along with Broadway & W 58 St are the other two top stations. In general the stations along the water and central park are more popular')
 
 
 ### LINE CHART PAGE: WEATHER COMPONENT AND BIKE USAGE
@@ -98,7 +102,7 @@ elif page == 'Weather component and bike usage':
     xaxis_title = 'Dates',
     height = 600
     )
-
+    
     st.plotly_chart(fig_2, use_container_width=True)
     st.markdown('We can see that rise in temperature and the ride volume have similar pattern indicating that they are related to each other. We can see the highest ride volume in the summer months when the temperature is high. The ride volume goes down in the winter months when the temperature is low. There are some peaks and valleys on certain days which might not be temperature related but related to other events. We can see the low number of rides on may 7 (day before mothers day) and september 6 (labor day).')
 
